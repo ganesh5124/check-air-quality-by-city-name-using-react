@@ -5,7 +5,7 @@ import moment from 'moment';
 import CityAQIDetails from './CityAQIDetails';
 
 const CityAQI = props => {
-    const [showDetails, setShowDetails] = useState(false); // used useState hook
+    const [showDetails, setShowDetails] = useState(false); // used useState  hook
 
     const aqi = props.cityInfo.aqi;
     const placeName = props.cityInfo.station.name;
